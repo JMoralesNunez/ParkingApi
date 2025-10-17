@@ -1,0 +1,72 @@
+# -------------------------
+# Dotnet / C# build outputs
+# -------------------------
+bin/
+obj/
+out/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.userprefs
+*.pidb
+*.svclog
+*.ide
+*.dbmdl
+
+# ASP.NET / Entity Framework
+appsettings.Development.json
+appsettings.*.json
+*.mdf
+*.ldf
+*.sqlite
+*.db
+Migrations/
+
+# Logs y datos temporales
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# Rider / IntelliJ IDEA
+.idea/
+*.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/contentModel.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+# Visual Studio / VS Code (por si abres el proyecto allí)
+.vscode/
+.vs/
+*.code-workspace
+
+# Archivos de dependencias
+node_modules/
+wwwroot/lib/
+wwwroot/dist/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+
+# Publicaciones / Public build outputs
+publish/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# Entornos / Contenedores
+.env
+.env.*
+docker-compose.override.yml
